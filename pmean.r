@@ -1,5 +1,5 @@
 pmean <- function(directory, pollutant, id = 1:332){
-  path <- paste("D:/Универ/FIT/Python + R/Mine", directory, sep = '/')
+  path <- paste("", directory, sep = '/')
   
   files <- list.files(path, full.names = TRUE)
   data <- data.frame()
@@ -12,7 +12,7 @@ pmean <- function(directory, pollutant, id = 1:332){
 }
 
 complete <- function(directory, id) {
-  path <- paste("D:/Универ/FIT/Python + R/Mine", directory, sep = '/')
+  path <- paste("", directory, sep = '/')
   
   files <- list.files(path, full.names = TRUE)
   data <- data.frame()
@@ -26,7 +26,7 @@ complete <- function(directory, id) {
 }
 
 corr <- function(directory, threshold = 0) {
-  path <- paste("D:/Универ/FIT/Python + R/Mine", directory, sep = '/')
+  path <- paste("", directory, sep = '/')
   
   files <- list.files(path, full.names = TRUE)
   data <- c()
